@@ -22,13 +22,20 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ch_16\modules.py" />
+    <Compile Include="ch_16\Packages\mod.py" />
+    <Compile Include="ch_16\Packages\__init__.py" />
     <Compile Include="ch_16\printers.py" />
+    <Compile Include="ch_16\__init__.py" />
+    <Compile Include="ch_18\custdir.py" />
     <Compile Include="p4_ch12.py" />
     <Compile Include="p4_ch13.py" />
     <Compile Include="trash.py" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="ch_16\" />
+    <Folder Include="ch_16\Packages\" />
+    <Folder Include="ch_18\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
