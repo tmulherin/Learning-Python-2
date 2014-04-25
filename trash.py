@@ -1,26 +1,21 @@
 #!C:\python\python
+import sys
+import os
 
-def min1(*args):
-    result = args[0]
-    for arg in args[1:]:
-        if arg > result:
-            result = arg
-    return result
+os.system('cls')
 
-def min2(first, *rest):
-    for arg in rest:
-        if arg > first:
-            first = arg
-    return first
+print(sys.path, '\n\n')
 
-def min3(*args):
-    tmp = list(args)
-    tmp.sort()
-    return tmp[-1]
+for path in sys.path:
+    print(path)
 
+keys = []
+for key in sys.modules.keys():
+    keys.append(key)
 
-print(min1(3,4,1,2))
-print(min2("bb", "aa"))
-print(min3([2,2], [1,1], [3,3]))
+keys.sort()
+print('\n\n')
 
+for key in keys:
+    print(key)
 

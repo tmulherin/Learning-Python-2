@@ -22,9 +22,13 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
+    <Compile Include="ch_16\printers.py" />
     <Compile Include="p4_ch12.py" />
     <Compile Include="p4_ch13.py" />
     <Compile Include="trash.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="ch_16\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
