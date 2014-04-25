@@ -28,6 +28,8 @@
     <Compile Include="ch_16\printers.py" />
     <Compile Include="ch_16\__init__.py" />
     <Compile Include="ch_18\custdir.py" />
+    <Compile Include="Classes\Classes.py" />
+    <Compile Include="Classes\main.py" />
     <Compile Include="p4_ch12.py" />
     <Compile Include="p4_ch13.py" />
     <Compile Include="trash.py" />
@@ -36,6 +38,7 @@
     <Folder Include="ch_16\" />
     <Folder Include="ch_16\Packages\" />
     <Folder Include="ch_18\" />
+    <Folder Include="Classes\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
 </Project>
